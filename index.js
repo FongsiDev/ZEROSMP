@@ -27,11 +27,23 @@ const listener = app.listen(process.env.PORT, function() {
 });
 
 app.get("/", async(req, res) => {
- render(req, res, "index");
+ render(req, res, "index")
 });
-
 app.get("/servers", async (req, res) => {
-  render(req, res, "server")
+	render(req, res, "server", {data: config.server})
 });
-
-   app.get("/grp", async (req, res))     
+app.get("/map", async (req, res) => {
+	render(req. res, "map")
+});
+app.get("/rules", async (req, res) => {
+	render(req, res, "rules")
+});
+app.get("/about", async (req, res) => {
+	render(req, res, "rules")
+});
+app.get("/grp", async (req, res) => {
+	res.redirect(config.grop)
+});
+app.get("/mc", async (req, res) => {
+	res.redirect(config.mc)
+});

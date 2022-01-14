@@ -1,20 +1,5 @@
 const randomElement = document.querySelectorAll(".px-6")[0];
-let servers = [
-  {
-    name: "ZERO SMP",
-    ip: "zsmps1.hopto.org:26123",
-  },
-  { name: "ZERO SMP SURVIVAL",
-    ip: "zsmps1.hopto.org:34087"
-  },
-  { name: "ZERO SMP PARKOUR",
-    ip: "netherlands.seanodes.xyz:25633"
-  },
-  { name: "ZERO SMP MINIGAMES FULL",
-    go: true,
-    ip: "zsm9ps1.hopto.org:00002"
-  }
-];
+let servers = '<% JSON.stringify(config.server) %>';
 let count = 0;
 function handleErrors(response) {
   if (!response.ok) {

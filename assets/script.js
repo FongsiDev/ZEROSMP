@@ -1,8 +1,4 @@
-var url_group = "https://chat.whatsapp.com/HnSD5SJsSQc7kKSfXrcFFN";
 var name = "";
-function group() {
-  location.href = url_group;
-}
 function requestmenu() {
   var Toast = Swal.mixin({
     showClass: {
