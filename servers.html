@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>★ ZERO SMP ★ </title>
+    <meta name="description" content="A Minecraft server where we have lots of fun!" />
+    <link rel="shortcut icon" href="/media/icon.gif" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/icon.gif" />
+    <meta name="robots" content="index" />
+    <link href="/assets/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet" />
+    <meta name="theme-color" content="#272727" />
+    <meta property="og:title" content="★ ZERO SMP ★ - Minecraft Server" />
+    <meta property="og:description" content="A Minecraft server where we have lots of fun!"/>
+    <meta property="og:image" content="/media/icon.gif"/>
+    <meta property="og:url" content="https://zsmp.surge.sh/" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" id="theme-styles" />
+  </head>
+  <body style="min-height: 100vh">
+    <!-- navbar -->
+    <nav class="flex items-center justify-between flex-wrap bg-transparent p-6">
+      <a href="/">
+        <div
+          class="flex items-center flex-shrink-0 text-white mr-6 select-none"
+        >
+          <img
+            src="/media/icon.gif"
+            class="mr-4 rounded shadow"
+            width="50px"
+            alt="★ ZERO SMP ★ "
+          />
+          <span
+            class="font-semibold text-xl tracking-tight hidden md:block"
+            id="serverLogoName"
+            >★ ZERO SMP ★ </span
+          >
+        </div>
+      </a>
+      <div class="block flex-grow flex items-center w-auto"></div>
+      <div
+        id="serverStatus"
+        class="text-gray-200 hidden md:block cursor-pointer"
+      ></div>
+      <div class="block md:hidden">
+        <div id="serverStatusM" class="text-gray-200 py-2 md:py-4"></div>
+      </div>
+    </nav>
+    <div
+      class="flex flex-wrap md:flex-row-reverse justify-center items-center text-center py-4"
+    >
+      <div class="w-full lg:w-1/2">
+        <h1 class="text-4xl text-gray-100 pt-12 lg:pt-0">★ ZERO SMP S★ </h1>
+        <h2 class="text-2xl text-gray-200 pt-6" id="serverVer">
+          Minecraft Server
+        </h2>
+        <div
+          class="rounded overflow-hidden w-full sm:w-4/5 md:w-3/4 mx-auto mt-10 mb-6"
+        >
+          <div class="px-6 py-4"></div>
+        </div>
+        <a onclick="group()" rel="noopener">
+          <button
+            class="w-4/5 md:w-1/2 xl:w-1/3 mb-2 bg-gray-800 hover:bg-teal-800 text-gray-300 hover:text-gray py-3 px-4 text-lg rounded transition duration-200 buttonclickpre"
+          >
+            <span class="buttonclick">Join our Grup</span>
+          </button>
+        </a>
+        <a href="https://minecraftpocket-servers.com/server/115391/" rel="noopener">
+          <button
+            class="w-4/5 md:w-1/2 xl:w-1/3 mb-2 bg-gray-800 hover:bg-teal-800 text-gray-300 hover:text-gray py-3 px-4 text-lg rounded transition duration-200 buttonclickpre"
+          >
+          	 <img src="media/vote.gif">
+            <span class="buttonclick">Vote Yuk</span>
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- set up clipboardjs and snackbar confirmation -->
+    <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+    <div id="snackbar" class="text-gray-100 bg-green-900 p-3 rounded shadow-xl">
+      IP Server telah di copy!
+    </div>
+    <script>
+        document.getElementById("serverStatus").innerHTML = "Loading...";
+        document.getElementById("serverStatusM").innerHTML = "Loading...";
+    </script>
+    <script type="text/javascript" src="/assets/clipboard.js"></script>
+    <div class="layoutfooter w-full pb-8 text-center transition duration-200">
+      <a
+        onclick="group()"
+        rel="noopener"
+        title="★ ZERO SMP ★ by Fongsi"
+        class="hover:text-gray-400"
+        >Powered by ★ ZERO SMP ★</a
+      >
+      &middot;
+      <a
+        href="/about.html"
+        rel="noopener"
+        title="Legal"
+        class="hover:text-gray-400"
+        >&copy; 2020
+        <script>
+          new Date().getFullYear() > 2020 &&
+            document.write("&#8208;" + new Date().getFullYear());
+        </script>
+          &middot; About/Contact</a
+      >
+    </div>
+    <script>var s="=tdsjqu!!!!!!uzqf>#ufyu0kbwbtdsjqu#!!!!!!tsd>#0bttfut0tfswfstubuvt.mjtu/kt#!!!!?=0tdsjqu?!!!!=tdsjqu!!!!!!uzqf>#ufyu0kbwbtdsjqu#!!!!!!tsd>#0bttfut0bouj/kt#!!!!?=0tdsjqu?!!!!=tdsjqu!!!!!!uzqf>#ufyu0kbwbtdsjqu#!!!!!!tsd>#0bttfut0tdsjqu/kt#!!!!?=0tdsjqu?!!!!=\"..!Hpphmf!Bobmzujdt!..?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript>You must enable JavaScript to see this text.</noscript>
+  </body>
+</html>
