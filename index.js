@@ -34,4 +34,4 @@ app.get("/servers", async (req, res) => {
   render(req, res, "server")
 });
 
-   app.get("/grp", async)     
+   app.get("/grp", async (req, res))     
